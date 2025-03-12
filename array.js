@@ -101,3 +101,94 @@ const arr7 = [2, 4, 6];
 arr9=[...arr6,...arr7]
 
 console.log(arr9.sort((a,b)=>a-b));
+
+let virat =Array.of(1,3,45)
+console.log(virat);
+console.log(Array.isArray(true));
+let arr10="ssk";
+console.log(Array.from(arr10));
+let arr11={
+  name:"virat",
+  age:32,
+  country:"india"
+}
+console.log(Array.from(Object.values(arr11)));
+console.log(Array.from(Object.keys(arr11)));
+
+// Create an array of numbers from 1 to 10.
+let array=[1,2,3,4,5,6,7,8,9,10,11,10];
+console.log(array.length);
+console.log(array[2]);
+console.log(array);
+array.pop();
+console.log();
+
+console.log(array.includes(5)?'yes':"no");
+console.log(array.join(" "));
+console.log(array.sort((a,b)=>b-a));
+console.log(array.reverse());
+let Output=[];
+for(let i=array.length-1;i>0;i--){
+  Output.push(array[i])
+}
+console.log(Output);
+
+console.log(array.reduce((a,b)=>a+b));
+console.log(array.reduce((a,b)=>a<b?a:b));
+console.log(array.filter((e)=>e%2==0));
+console.log(array.sort((a,b)=>a-b));
+console.log([...array,...Output]);
+let arrays=[1,1,44,44,44,555,444,5,4,5,6]
+let result1=[];
+for(let i=0;i<=arrays.length;i++){
+if(!result1.includes(arrays[i])){
+  result1.push(arrays[i]);
+}
+}
+console.log(result1);
+
+let high=arrays.reduce((a,b)=>a>b?a:b);
+console.log(arrays.filter(e=>e!==high).reduce((a,b)=>a>b?a:b));
+
+
+// function array1(i){
+//   let array=[];
+//   for(i;i<=10;i++){
+//     array.push(i);
+ 
+//   }
+//   console.log(array);
+  
+// }
+// array1(1);
+
+// console.log(Array.from({ length: 10 }, (e, i) => i + 1));
+
+// Basic Questions
+// Create an array of numbers from 1 to 10.
+// Find the length of an array.
+// Access the third element in an array.
+// Add an element "Hello" at the end of an array.
+// Remove the first element of an array.
+// Check if an array contains the number 5.
+// Convert an array to a string.
+// Reverse an array without using .reverse().
+// Intermediate Questions
+// Find the sum of all elements in an array.
+// Find the largest number in an array.
+// Filter out even numbers from an array.
+// Sort an array in ascending order.
+// Merge two arrays without using .concat().
+// Remove duplicate values from an array.
+// Find the second largest number in an array.
+// Rotate an array k times to the right.
+// Advanced Questions
+// Find the intersection of two arrays.
+// Find the union of two arrays.
+// Find the missing number in an array of consecutive numbers.
+// Flatten a nested array without using .flat().
+// Group an array of objects by a specific key.
+// Find the most frequently occurring element in an array.
+// Implement a function to shuffle an array randomly.
+// Create a deep copy of a nested array.
+// Would you like solutions for any of these? 🚀

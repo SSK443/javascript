@@ -75,3 +75,22 @@ rev+=str[i]
   return rev
 }
 console.log(reverse("hello")); // Output: "olleh"
+
+const life= "I love\n's,\" \'JavaS\tcript\"";
+console.log(life);
+
+const str = "Hello ";
+console.log(str.charAt(1));
+console.log(str.length);
+
+console.log(str.toUpperCase());
+console.log(str.trimEnd());
+console.log(str.substring(0,5));
+
+console.log(str.slice(0,5));
+console.log(str.replace("hello","hi"));
+console.log(str);
+console.log(str.split(''));
+
+const fruits = ["apple", "banana", "orange"];
+console.log(fruits.join(" ,")); // ✅ "apple, banana, orange"
