@@ -58,3 +58,7 @@ console.log(d);
 // Use Prefix (++x) when you want the updated value immediately.
 // Use Postfix (x++) when you need the original value before modification.
 // Would you like some more examples or use cases? 😊
+
+let loe=5;
+loe++
+console.log(loe);
